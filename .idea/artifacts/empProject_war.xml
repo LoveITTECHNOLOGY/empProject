@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="empProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>empProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="empProject-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="empProject:war exploded" />
+    </root>
+  </artifact>
+</component>
